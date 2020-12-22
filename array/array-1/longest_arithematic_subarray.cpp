@@ -1,3 +1,5 @@
+// google kick start
+
 #include <iostream>
 using namespace std;
 
@@ -17,19 +19,19 @@ int main()
     int pd = a[1] - a[0];
     int j = 2;
     int curr = 2;
-    while (j<n)
+    while (j < n)
     {
 
-        if (pd == a[j] - a[j-1] )
+        if (pd == a[j] - a[j - 1])
         {
             curr++;
         }
-        else 
+        else
         {
-            pd = (a[j] - a[j-1]);
+            pd = (a[j] - a[j - 1]);
             curr = 2;
         }
-       ans = max(ans , curr);
+        ans = max(ans, curr);
         j++;
     }
 

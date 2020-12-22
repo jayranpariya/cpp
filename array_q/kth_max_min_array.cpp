@@ -34,7 +34,7 @@ int main()
         if (i == ks - 1)
         {
             cout << a[i] << endl;
-            // break;
+            break;
         }
 
         if (i == n - kl-1)
